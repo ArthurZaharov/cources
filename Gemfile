@@ -20,6 +20,7 @@ group :development, :test do
   gem "byebug", platform: :mri
   gem "coffeelint"
   gem "jasmine", "> 2.0"
+  gem "listen", "~> 3.0.5"
   gem "rspec-rails"
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
@@ -29,7 +30,6 @@ end
 
 group :development do
   gem "foreman", require: false
-  gem "listen", "~> 3.0.5"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console"
