@@ -19,6 +19,8 @@ group :development, :test do
   gem "bundler-audit", require: false
   gem "byebug", platform: :mri
   gem "coffeelint"
+  gem "jasmine", "> 2.0"
+  gem "rspec-rails"
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
   gem "scss_lint", require: false
